@@ -81,6 +81,12 @@
   color: #f4cf15;
 }
 
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
 @media only screen and (max-width: 992px) {
   .hover-underline-animation:after {
     bottom: -1px;

@@ -11,7 +11,7 @@ export const setLocalStorageItems = (data: UserInfo) => {
 };
 
 export function getUserInfo() {
-  return JSON.parse(localStorage.getItem(CONSTANTS.KEY_USER_INFO) || "");
+  return JSON.parse(localStorage.getItem(CONSTANTS.KEY_USER_INFO) || null);
 }
 
 export function getUserToken() {
