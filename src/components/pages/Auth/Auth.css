@@ -1,0 +1,43 @@
+.container.auth {
+  margin: 0 auto;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-form label {
+  margin-top: 10px;
+}
+
+.auth-form input[type="text"],
+.auth-form input[type="email"],
+.auth-form input[type="password"],
+.auth-form input[type="submit"] {
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.auth-form input[type="submit"] {
+  margin-top: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.auth-form input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.text_danger {
+  color: red;
+  font-size: 0.8em;
+  margin-top: 5px;
+}

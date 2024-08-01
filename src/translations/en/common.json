@@ -1,0 +1,62 @@
+{
+  "title": "Little Lemon",
+  "hero": {
+    "area": "Chicago",
+    "desc": "We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.",
+    "reserve": "Reserve a table"
+  },
+  "week-specials": {
+    "specials": "This week specials",
+    "menu": "Online Menu",
+    "meal": {
+      "order": "Order",
+      "greek-salad": "Greek Salad",
+      "greek-salad-desc": "Indulge in the flavors of Greece with our famous Greek Salad. Crispy lettuce, colorful peppers, savory olives, and our signature Chicago-style feta cheese, all topped with crunchy garlic and rosemary croutons.",
+      "bruschetta": "Bruschetta",
+      "bruschetta-desc": "Savor the taste of Italy with our Bruschetta. Grilled bread rubbed with garlic, drizzled with olive oil, and seasoned with just the right amount of salt. It's a classic appetizer that will leave you craving more.",
+      "lemon-dessert": "Lemon Dessert",
+      "lemon-dessert-desc": "Treat yourself to a delightful Lemon Dessert straight from grandma's recipe book. Every ingredient has been carefully sourced to bring you an authentic taste experience. It's the perfect way to end your meal on a sweet note."
+    }
+  },
+  "testimonials": {
+    "title": "Testimonials",
+    "george": "George",
+    "george-says": "The ambiance at Little Lemon is just perfect! The food was exquisite and the service was top-notch.",
+    "christina": "Christina",
+    "christina-says": "I loved the variety on the menu. Everything we tried was delicious, and the staff were very friendly.",
+    "joseph": "Joseph",
+    "joseph-says": "A great place to dine with family and friends. The dishes are flavorful, and the atmosphere is cozy.",
+    "jennifer": "Jennifer",
+    "jennifer-says": "Little Lemon exceeded my expectations! The quality of the food and the presentation were exceptional."
+  },
+  "our-story": {
+    "title": "Our Story",
+    "desc": "Little Lemon restaurant, nestled in the heart of Chicago, embodies a tale of culinary passion and friendship. Founded by childhood friends Mia and Alex, it's a story of dreams realized through dedication and creativity. From vibrant flavors to cozy ambiance, each aspect reflects their commitment to excellence. With every dish, Little Lemon invites guests on a journey of taste and togetherness, where every bite tells a story of innovation and tradition."
+  },
+  "footer": {
+    "sitemap": "Sitemap",
+    "contact-us": "Contact us",
+    "connect": "Connect with us "
+  },
+  "links": {
+    "home": "Home",
+    "about": "About",
+    "menu": "Menu",
+    "reservations": "Reservations",
+    "order-online": "Order Online",
+    "login": "Login"
+  },
+  "auth": {
+    "register": "Register",
+    "login": "Login",
+    "full-name": "Full Name",
+    "full-name-valid": "Full Name is required",
+    "email": "E-mail",
+    "email-valid": "E-mail is required",
+    "email-invalid": "Invalid e-mail address",
+    "password": "Password",
+    "password-valid": "Password is required",
+    "account-exist": "Already have an account",
+    "no-account": "Don't have an account"
+  }
+}

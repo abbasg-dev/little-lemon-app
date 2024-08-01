@@ -1,0 +1,62 @@
+{
+  "title": "Le Petit Citron",
+  "hero": {
+    "area": "Chicago",
+    "desc": "Nous sommes un restaurant méditerranéen familial, axé sur des recettes traditionnelles servies avec une touche moderne.",
+    "reserve": "Réserver une table"
+  },
+  "week-specials": {
+    "specials": "Les spéciaux de cette semaine",
+    "menu": "Menu en ligne",
+    "meal": {
+      "order": "Commande",
+      "greek-salad": "Salade grecque",
+      "greek-salad-desc": "Savourez les saveurs de la Grèce avec notre célèbre salade grecque. Laitue croustillante, poivrons colorés, olives savoureuses et notre fromage feta signature de Chicago, le tout garni de croûtons croquants à l'ail et au romarin.",
+      "bruschetta": "Bruschetta",
+      "bruschetta-desc": "Savourez le goût de l'Italie avec notre Bruschetta. Du pain grillé frotté à l'ail, arrosé d'huile d'olive et assaisonné avec juste ce qu'il faut de sel. C'est un apéritif classique qui vous donnera envie de plus.",
+      "lemon-dessert": "Dessert au citron",
+      "lemon-dessert-desc": "Offrez-vous un délicieux dessert au citron directement tiré du livre de recettes de grand-mère. Chaque ingrédient a été soigneusement sélectionné pour vous offrir une expérience gustative authentique. C'est la façon idéale de terminer votre repas sur une note sucrée."
+    }
+  },
+  "testimonials": {
+    "title": "Témoignages",
+    "george": "Georges",
+    "george-says": "L'ambiance au Little Lemon est tout simplement parfaite ! La nourriture était exquise et le service était de premier ordre.",
+    "christina": "Christine",
+    "christina-says": "J'ai adoré la variété du menu. Tout ce que nous avons essayé était délicieux et le personnel était très sympathique.",
+    "joseph": "Joseph",
+    "joseph-says": "Un endroit idéal pour dîner en famille et entre amis. Les plats sont savoureux et l'ambiance est chaleureuse.",
+    "jennifer": "Jennifer",
+    "jennifer-says": "Little Lemon a dépassé mes attentes ! La qualité de la nourriture et la présentation étaient exceptionnelles."
+  },
+  "our-story": {
+    "title": "Notre histoire",
+    "desc": "Le restaurant Little Lemon, niché au cœur de Chicago, incarne une histoire de passion culinaire et d'amitié. Fondé par les amis d'enfance Mia et Alex, c'est une histoire de rêves réalisés grâce au dévouement et à la créativité. Des saveurs vibrantes à une ambiance chaleureuse , chaque aspect reflète leur engagement envers l'excellence. Avec chaque plat, Little Lemon invite ses convives à un voyage de goût et de convivialité, où chaque bouchée raconte une histoire d'innovation et de tradition."
+  },
+  "footer": {
+    "sitemap": "Plan du site",
+    "contact-us": "Contactez-nous",
+    "connect": "Connectez-vous avec nous"
+  },
+  "links": {
+    "home": "Maison",
+    "about": "À propos",
+    "menu": "Menu",
+    "reservations": "Réservations",
+    "order-online": "Réservations",
+    "login": "Se connecter"
+  },
+  "auth": {
+    "register": "S'inscrire",
+    "login": "Se connecter",
+    "full-name": "Nom et prénom",
+    "full-name-valid": "Le nom complet est requis",
+    "email": "E-mail",
+    "email-valid": "L'e-mail est requis",
+    "email-invalid": "Adresse e-mail invalide",
+    "password": "Mot de passe",
+    "password-valid": "Mot de passe requis",
+    "account-exist": "Vous avez déjà un compte",
+    "no-account": "Je n'ai pas de compte"
+  }
+}
