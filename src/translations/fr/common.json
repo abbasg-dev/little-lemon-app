@@ -58,5 +58,19 @@
     "password-valid": "Mot de passe requis",
     "account-exist": "Vous avez déjà un compte",
     "no-account": "Je n'ai pas de compte"
-  }
+  },
+  "reservation": {
+    "title": "Réservation de table",
+    "choose-date": "Choisir une date",
+    "choose-time": "Choisissez l'heure",
+    "guests-num": "Nombre d'invités",
+    "occasion": "Occasion",
+    "select-occasion": "Sélectionnez une occasion",
+    "birthday": "le jour de naissance",
+    "anniversary": "Fête d'anniversaire",
+    "make": "Faites votre réservation",
+    "confirmed": "Votre table a été confirmée",
+    "confirmation-msg": "Un email de confirmation contenant tous les détails vous sera envoyé sous peu."
+  },
+  "not-found": "Page non trouvée"
 }

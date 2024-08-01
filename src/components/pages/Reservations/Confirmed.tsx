@@ -1,14 +1,13 @@
+import { useTranslation } from "react-i18next";
 import Icons from "assets/icons";
 import "./BookingForm.css";
 const Confirmed = () => {
+  const { t } = useTranslation("common");
   return (
-    <div className="confirmed-reservation">
+    <div className="container confirmed-reservation">
       <Icons.SUCCESS />
-      <h2>Your table has been confirmed!</h2>
-      <p>
-        An email confirmation containing all the details will be sent to you
-        shortly.
-      </p>
+      <h2>{t("reservation.confirmed")}!</h2>
+      <p>{t("reservation.confirmation-msg")}</p>
     </div>
   );
 };

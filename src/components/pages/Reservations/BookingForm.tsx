@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import { fetchAPI, submitAPI } from "utils/helpers";
 import { BookingData, BookingProps } from "interfaces/main.model";
 import { validateFormData } from "validations";
@@ -6,6 +7,7 @@ import { useNavigate } from "react-router-dom";
 import * as ROUTES from "constants/routes";
 import "./BookingForm.css";
 const BookingForm: React.FC<BookingProps> = ({ availableTimes, dispatch }) => {
+  const { t } = useTranslation("common");
   const navigate = useNavigate();
   const [formData, setFormData] = useState<BookingData>({
     date: "",
@@ -54,9 +56,9 @@ const BookingForm: React.FC<BookingProps> = ({ availableTimes, dispatch }) => {
   };
   return (
     <div className="container reservations">
-      <h2>Table reservation</h2>
+      <h2>{t("reservation.title")}</h2>
       <form onSubmit={handleSubmit} className="reservation-form">
-        <label htmlFor="res-date">Choose date</label>
+        <label htmlFor="res-date">{t("reservation.choose-date")}</label>
         <input
           type="date"
           id="res-date"
@@ -65,7 +67,7 @@ const BookingForm: React.FC<BookingProps> = ({ availableTimes, dispatch }) => {
           onChange={handleChange}
           required
         />
-        <label htmlFor="res-time">Choose time</label>
+        <label htmlFor="res-time">{t("reservation.choose-time")}</label>
         <select
           id="res-time"
           name="time"
@@ -79,7 +81,7 @@ const BookingForm: React.FC<BookingProps> = ({ availableTimes, dispatch }) => {
             </option>
           ))}
         </select>
-        <label htmlFor="guests">Number of guests</label>
+        <label htmlFor="guests">{t("reservation.guests-num")}</label>
         <input
           type="number"
           id="guests"
@@ -91,7 +93,7 @@ const BookingForm: React.FC<BookingProps> = ({ availableTimes, dispatch }) => {
           max="10"
           required
         />
-        <label htmlFor="occasion">Occasion</label>
+        <label htmlFor="occasion">{t("reservation.occasion")}</label>
         <select
           id="occasion"
           name="occasion"
@@ -99,11 +101,11 @@ const BookingForm: React.FC<BookingProps> = ({ availableTimes, dispatch }) => {
           onChange={handleChange}
           required
         >
-          <option value="">Select an occasion</option>
-          <option value="Birthday">Birthday</option>
-          <option value="Anniversary">Anniversary</option>
+          <option value="">{t("reservation.select-occasion")}</option>
+          <option value="Birthday">{t("reservation.birthday")}</option>
+          <option value="Anniversary">{t("reservation.anniversary")}</option>
         </select>
-        <input type="submit" value="Make Your reservation" />
+        <input type="submit" value={t("reservation.make")} />
         {Object.values(formErrors).map((error, index) => (
           <div key={index} className="error">
             {error}

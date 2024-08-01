@@ -32,10 +32,8 @@
   background-color: #0056b3;
 }
 
-.confirmed-reservation {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.container.confirmed-reservation {
+  margin: 0 auto;
+  padding: 30px;
   text-align: center;
 }
